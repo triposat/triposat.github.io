@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #29272b;
+  color: #b9b7b7;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+
+.profile-details {
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.intro-card {
+  width: 100%;
+  width: clamp(250px, 70%, 600px);
+  text-align: center;
+  background-color: #29272b;
+  margin: 0 auto; /* Center-align the card */
+  margin-bottom: 30px;
+}
+
+.intro-card p {
+  margin-bottom: 0;
+}
+
+.social-links {
+  text-align: center; /* Center-align the social links */
+  margin-bottom: 30px;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: #77aabe;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.social-link i {
+  margin-right: 5px;
+}
+
+.blog-section {
+  margin-bottom: 30px;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: clamp(100px, 33.33%, 300px);
+  border: 1px solid #77aabe;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #2d2b2f;
+}
+.card a:link {
+  text-decoration: none;
+}
+.card a:visited {
+  text-decoration: none;
+}
+.card a:hover {
+  text-decoration: underline;
+  color: #77aabe;
+}
+.card a:active {
+  text-decoration: underline;
+}
+.card h3 {
+  color: #dddddd;
+  font-family: Arial, sans-serif;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+}
