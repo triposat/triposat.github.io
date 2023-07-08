@@ -99,6 +99,21 @@ h3 {
 .card a:active {
   text-decoration: underline;
 }
+
+.all-blogs a:link {
+  text-decoration: none;
+}
+.all-blogs a:visited {
+  text-decoration: none;
+}
+.all-blogs a:hover {
+  text-decoration: underline;
+  color: green;
+}
+.all-blogs a:active {
+  text-decoration: underline;
+}
+
 .card h3 {
   color: #dddddd;
   font-family: Arial, sans-serif;
@@ -112,6 +127,19 @@ h3 {
 
 .card p {
   margin-bottom: 0;
+}
+
+.all-blogs {
+  width: clamp(10px, 15%, 300px);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #eef9fc;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
 }
 
 @media (max-width: 768px) {
