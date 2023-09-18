@@ -129,6 +129,16 @@ h3 {
   margin-bottom: 0;
 }
 
+.top-ranked {
+  text-align: center;
+}
+
+.top-ranked img {
+  display: block;
+  margin: 0 auto;
+  height: 65vh;
+}
+
 .all-blogs {
   width: clamp(10px, 15%, 300px);
   border-radius: 5px;
