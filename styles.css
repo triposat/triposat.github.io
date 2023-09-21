@@ -85,6 +85,11 @@ h3 {
   padding: 10px;
   margin: 10px;
   background-color: #2d2b2f;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: rotate(-5deg);
+  box-shadow: 0px 10px 20px rgba(241, 119, 25, 0.253);
 }
 .card a:link {
   text-decoration: none;
