@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://triposat.github.io/blog/sso-enforcement/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/deprecating-v1-endpoints/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/usage-based-pricing/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/audit-log-api/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/sdk-v3-migration/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/eu-data-residency/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/webhook-retries/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/rate-limits-explained/</loc><lastmod>2026-11-25</lastmod></url>
+  <url><loc>https://triposat.github.io/blog/introducing-batch-exports/</loc><lastmod>2026-11-25</lastmod></url>
+</urlset>
