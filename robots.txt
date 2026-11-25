@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://triposat.github.io/new-pages-demo/sitemap.xml
