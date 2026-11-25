@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Verifying webhook signatures | Tidewater</title><meta name="description" content="">
+<link rel="stylesheet" href="https://triposat.github.io/style.css"></head>
+<body><header><a class="logo" href="https://triposat.github.io/">Tidewater</a>
+<nav><a href="https://triposat.github.io/docs/">Docs</a> <a href="https://triposat.github.io/blog/">Blog</a> <a href="https://triposat.github.io/changelog/">Changelog</a> <a href="https://triposat.github.io/pricing/">Pricing</a> <a href="https://triposat.github.io/search/?q=">Search</a></nav></header>
+<main><article><h1>Verifying webhook signatures</h1><p>Every webhook request carries a Tidewater-Signature header with an HMAC-SHA256 of the raw body. Compare it with your own HMAC in constant time and reject requests older than 5 minutes.</p></article></main>
+<footer><p>Tidewater is a demo site for testing new-page alerts. <a href="https://github.com/triposat/triposat.github.io">Source</a></p></footer>
+</body></html>
