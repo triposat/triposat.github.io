@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>JS listing test 2</title></head>
+<body>
+<h1>Client-rendered listing (test page 2)</h1>
+<p><a href="/lab/js-listing-2/static-post">A link in the HTML</a></p>
+<ul id="inline"></ul>
+<ul id="fetched"></ul>
+<script>
+  // links written by script on load, using only old DOM APIs
+  document.getElementById("inline").innerHTML =
+    '<li><a href="/lab/js-listing-2/inline-post-1">inline-post-1</a></li>' +
+    '<li><a href="/lab/js-listing-2/inline-post-2">inline-post-2</a></li>';
+  // links loaded from a JSON file after the page loads
+  var x = new XMLHttpRequest();
+  x.open("GET", "/lab/js-listing/posts.json");
+  x.onload = function () {
+    var posts = JSON.parse(x.responseText), html = "";
+    for (var i = 0; i < posts.length; i++) html += '<li><a href="/lab/js-listing-2/' + posts[i] + '">' + posts[i] + '</a></li>';
+    document.getElementById("fetched").innerHTML = html;
+  };
+  x.send();
+</script>
+</body></html>
